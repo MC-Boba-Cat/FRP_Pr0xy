@@ -1,5 +1,5 @@
 [Unit]
-Description=FRP service
+Description=FRP service daemon
 After=network.target
 
 [Service]

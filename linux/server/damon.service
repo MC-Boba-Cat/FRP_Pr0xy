@@ -1,0 +1,12 @@
+[Unit]
+Description=FRP service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+ExecStart=/FRP_Pr0xy/linux/server/start.sh
+
+[Install]
+WantedBy=multi-user.target
